@@ -8,6 +8,18 @@ Interface for expressing machine learning algorithms
 * Train
 * Evaluate
 
+### Computational Graph with nodes and edges 
+
+DAG (Directed Acylic Graph)
+* Directed : traverse the graph in predefined sequence
+* Acylic : No looping . Data doesnt go through same node more than once
+* Graph : nodes and edges represent data transformation process
+
+<img src="img/one.jpg">
+
+Node in the graph represent operation
+Edges represent tensor data
+
 ### Environment
 * Direct
 * Virtual
@@ -20,3 +32,4 @@ Interface for expressing machine learning algorithms
 * if learning rate set too high , it ends up bouncing around 
 * calculating the derivatives of the model with respect to its features 
 * gradient descent based optimizers are an often used method for minimizing loss 
+
