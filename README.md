@@ -2,6 +2,12 @@
 
 Interface for expressing machine learning algorithms 
 
+### Concept
+* Build
+* Compile
+* Train
+* Evaluate
+
 ### Environment
 * Direct
 * Virtual
